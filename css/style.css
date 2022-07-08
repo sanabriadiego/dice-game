@@ -23,7 +23,8 @@ main{
     margin-bottom: 2em;
 }
 
-.score, .dice{
+.score, 
+.dice{
     margin: 0;
 }
 
@@ -42,7 +43,6 @@ main{
     background-color: #ffd3b6;
     border-radius: 10px;
     padding: 0.3em 0;
-    /*margin: 0.5em;*/
 
 }
 
@@ -60,3 +60,33 @@ main{
 .btn:active{
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 600px) {
+
+    main{
+        max-width: 500px;
+    }
+
+    #instructions-title{
+        font-size: 3rem;
+    }
+
+    .score{
+        font-size: 2rem;
+    }
+
+    .dice{
+        padding: 0.6em 0;
+    }
+
+    .player-section{
+        margin-bottom: 3em;
+    }
+
+    .btn{
+        font-size: 1.5rem;
+    }
+
+  }
